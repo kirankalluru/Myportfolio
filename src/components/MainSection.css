@@ -1,0 +1,67 @@
+.firstsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 20px;
+    flex-wrap: wrap;
+  }
+  .firstsection > div {
+    flex: 1;
+    min-width: 300px;
+  }
+  .leftsection {
+    font-size: 2.5rem;
+  }
+  .leftsection .buttons {
+    margin-top: 20px;
+  }
+  .leftsection .btn {
+    padding: 12px;
+    background: black;
+    color: white;
+    border-radius: 4px;
+    font-size: 19px;
+    border: 1px solid whitesmoke;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  }
+  .rightsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightsection img {
+    max-width: 100%;
+    height: 600px;
+    
+    
+    
+  }
+  
+  .gold {
+    color: #FFB000;
+  }
+  #element {
+    color: #d8154f;
+    font-weight: 600;
+  }
+  /* Mobile view adjustments */
+@media (max-width: 768px) {
+  .leftsection {
+    font-size: 1.5rem; /* Decrease text size on mobile */
+  }
+  .leftsection .btn {
+    font-size: 16px; /* Decrease button text size on mobile */
+  }
+  .rightsection img {
+    max-width: 90%;
+    height: 360px;
+    margin: 10px;
+    
+    
+    
+  }
+}

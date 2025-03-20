@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #040D12;
+    padding: 24px 20px;
+    flex-wrap: wrap;
+  }
+  .footer > div {
+    margin: 10px;
+  }
+  .footer ul {
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+  }
+  .footer ul li {
+    padding: 5px 0;
+  }
+  .footer-rights {
+    padding: 10px 0;
+    text-align: center;
+    color: gray;
+    width: 100%;
+  }
+  

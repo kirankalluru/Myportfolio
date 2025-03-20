@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+
+.gallary{
+    background: url("https://media.istockphoto.com/id/1185860028/photo/interior-poster-mock-up-with-square-frame-and-plants-in-vase-on-white-wall-background-3d.jpg?b=1&s=612x612&w=0&k=20&c=GCPeMTBD-g5wXggH919kI3qb0vDl6TqY4X91yyLfe_w=");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.innergallarydiv{
+  background: rgba(9, 12, 10, 0.331);
+-webkit-backdrop-filter: blur(13px);
+backdrop-filter: blur(13px);
+border: 1px solid rgba(175,175,175,0.225);
+}
+
+
+/* quiz app results animation */
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.bounce-in {
+  animation: bounceIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+body {
+  -ms-overflow-style: none;
+}
